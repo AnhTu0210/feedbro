@@ -1,0 +1,110 @@
+* APC is disabled or not available on server
+* Supplied URL: https://www.facebook.com/congtutb.bui
+* ** Loading class HumbleHttpAgent (humble-http-agent/HumbleHttpAgent.php)
+<br />
+<b>Deprecated</b>:  Return type of RollingCurl::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in <b>/home/www/rssbridge.joshwho.net/fulltext/libraries/humble-http-agent/RollingCurl.php</b> on line <b>168</b><br />
+* ** Loading class ContentExtractor (content-extractor/ContentExtractor.php)
+* ** Loading class SiteConfig (content-extractor/SiteConfig.php)
+* --------
+* Attempting to process URL as feed
+* ** Loading class SimplePie_HumbleHttpAgent (humble-http-agent/SimplePie_HumbleHttpAgent.php)
+* ** Loading class DisableSimplePieSanitize (DisableSimplePieSanitize.php)
+* Fetching URL (https://www.facebook.com/congtutb.bui)
+* Starting parallel fetch (curl_multi_*)
+* Processing set of 1
+* ...https://www.facebook.com/congtutb.bui
+* ......adding to pool
+* . looking for site config for facebook.com in custom folder
+* . looking for site config for facebook.com in standard folder
+* ... no site config match for facebook.com
+* Cached site config with key facebook.com.merged
+* Checking fingerprints...
+* No fingerprint matches
+* . looking for site config for global in custom folder
+* . looking for site config for global in standard folder
+* ... no site config match for global
+* Cached site config with key global.merged.ex
+* ......user-agent set to: PHP/7.2
+* ......referer set to: http://www.google.co.uk/url?sa=t&source=web&cd=1
+* Sending request...
+* Received responses
+* Redirect detected. Valid URL: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcongtutb.bui
+* ** Loading class CookieJar (humble-http-agent/CookieJar.php)
+* Following redirects #1...
+* Starting parallel fetch (curl_multi_*)
+* Processing set of 1
+* ...https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcongtutb.bui
+* ......adding to pool
+* ... site config for facebook.com.merged already loaded in this request
+* Checking fingerprints...
+* No fingerprint matches
+* ... site config for global.merged.ex already loaded in this request
+* Appending site config settings from global.txt
+* ......user-agent set to: PHP/7.2
+* ......referer set to: http://www.google.co.uk/url?sa=t&source=web&cd=1
+* Sending request...
+* Received responses
+* ... site config for facebook.com.merged already loaded in this request
+* Checking fingerprints...
+* No fingerprint matches
+* ... site config for global.merged.ex already loaded in this request
+* Appending site config settings from global.txt
+* Meta refresh redirect found (http-equiv="refresh"), new URL: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcongtutb.bui&_fb_noscript=1
+* Following redirects #2...
+* Starting parallel fetch (curl_multi_*)
+* Processing set of 1
+* ...https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcongtutb.bui&_fb_noscript=1
+* ......adding to pool
+* ... site config for facebook.com.merged already loaded in this request
+* Checking fingerprints...
+* No fingerprint matches
+* ... site config for global.merged.ex already loaded in this request
+* Appending site config settings from global.txt
+* ......user-agent set to: PHP/7.2
+* ......referer set to: http://www.google.co.uk/url?sa=t&source=web&cd=1
+* Sending request...
+* Received responses
+* ... site config for facebook.com.merged already loaded in this request
+* Checking fingerprints...
+* No fingerprint matches
+* ... site config for global.merged.ex already loaded in this request
+* Appending site config settings from global.txt
+* --------
+* Constructing a single-item feed from URL
+* ** Loading class FeedWriter (feedwriter/FeedWriter.php)
+* --------
+* Fetching feed items
+* Starting parallel fetch (curl_multi_*)
+* Processing set of 1
+* ...https://www.facebook.com/congtutb.bui
+* ......in memory
+* --------
+* Processing feed item 1
+* Item URL: https://www.facebook.com/congtutb.bui
+* ** Loading class FeedItem (feedwriter/FeedItem.php)
+* URL already fetched - in memory (https://www.facebook.com/congtutb.bui, effective: https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fcongtutb.bui&_fb_noscript=1)
+* Character encoding: utf-8
+* Looking for site config files to see if single page link exists
+* ... site config for facebook.com.merged already loaded in this request
+* Checking fingerprints...
+* No fingerprint matches
+* ... site config for global.merged.ex already loaded in this request
+* Appending site config settings from global.txt
+* --------
+* Attempting to extract content
+* ... site config for facebook.com.merged already loaded in this request
+* Checking fingerprints...
+* No fingerprint matches
+* ... site config for global.merged.ex already loaded in this request
+* Appending site config settings from global.txt
+* Attempting to parse HTML with html5php
+* ** Loading class Readability (readability/Readability.php)
+* ** Loading class Masterminds\HTML5 (html5php/HTML5.php)
+<br />
+<b>Deprecated</b>:  DOMImplementation::createDocument(): Passing null to parameter #2 ($qualifiedName) of type string is deprecated in <b>/home/www/rssbridge.joshwho.net/fulltext/libraries/html5php/HTML5/Parser/DOMTreeBuilder.php</b> on line <b>178</b><br />
+* Language matched: en
+* Extracting Open Graph elements
+* Stripping 2 elements with inline display:none style
+* Using Readability
+* Detecting title
+* Done!
