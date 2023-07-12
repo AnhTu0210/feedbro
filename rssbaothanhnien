@@ -16,6 +16,9 @@
 <url>https://static.thanhnien.com.vn/thanhnien.vn/image/logo-share.jpg</url>
 <title>thanhnien.vn</title>
 <link>https://thanhnien.vn</link>
+</image>
+<atom:link href="https://thanhnien.vn" rel="self" type="application/rss+xml"/>
+<ttl>15</ttl>
 
   </channel>
 </rss>
