@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Báo Thanh Niên</title>
+    <link>https://thanhnien.vn/</link>
+    <description>Tin tức Báo Thanh Niên</description>
+    <language>vi</language>
+    <lastBuildDate>Sun, 11 Jul 2021 16:00:00 +0700</lastBuildDate>
+
+    <item>
+      <title>Tiêu đề bài viết 1</title>
+      <link>https://thanhnien.vn/tieu-de-bai-viet-1-123456.html</link>
+      <description>Mô tả bài viết 1</description>
+      <pubDate>Sun, 11 Jul 2021 10:00:00 +0700</pubDate>
+    </item>
+
+    <item>
+      <title>Tiêu đề bài viết 2</title>
+      <link>https://thanhnien.vn/tieu-de-bai-viet-2-789012.html</link>
+      <description>Mô tả bài viết 2</description>
+      <pubDate>Sat, 10 Jul 2021 15:00:00 +0700</pubDate>
+    </item>
+
+    <!-- Thêm các item khác tương tự ở đây -->
+
+  </channel>
+</rss>
